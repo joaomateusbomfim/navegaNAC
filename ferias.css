@@ -1,0 +1,81 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;               
+    
+}
+
+.profissionais {
+    text-align: center;
+    margin: 10px 0 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: black;
+    
+}
+   
+.mes {
+    font-size: 20px;
+    color: white;
+    margin: 10px 0 0;
+    background-color: #206070;
+    padding: 5px 0px 5px 10px;
+    font-family: 'Oswald', sans-serif;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 1200px;
+    
+    
+    
+}
+.ferias {
+    padding: 0px 0px 0px 10px; 
+    border: 2px solid black;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    
+    
+    
+}
+table {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;        
+                          
+}
+
+.cabecalho {
+    font-weight: bold;
+    background-color: #009999;        
+    border: solid 1px black;
+    color: white;
+    padding: 5px;
+        
+    
+}
+tr {
+    border: solid 1px black;
+    margin: 5px;
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+    
+}
+td {
+    border: solid 1px black;
+    padding: 10px;
+    width: 1200px;
+    
+}
